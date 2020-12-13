@@ -1,0 +1,79 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {
+        "no-unused-expression": true
+    },
+    "rules": {
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "member-access": [
+            false
+        ],
+        "ordered-imports": {
+            "options": {
+                "import-sources-order": "case-insensitive",
+                "module-source-path": "full",
+                "named-imports-order": "case-insensitive",
+                "grouped-imports": true,
+                "groups": [
+                    {
+                        "name": "@nestjs",
+                        "match": "^@nestjs",
+                        "order": 10
+                    },
+                    {
+                        "name": "src directories",
+                        "match": "^src",
+                        "order": 15
+                    },
+                    {
+                        "name": "parent directories",
+                        "match": "^\\.\\.",
+                        "order": 20
+                    },
+                    {
+                        "name": "current directory",
+                        "match": "^\\.",
+                        "order": 30
+                    },
+                    {
+                        "name": "libraries",
+                        "match": ".*",
+                        "order": 12
+                    }
+                ]
+            }
+        },
+        "max-line-length": [
+            true,
+            150
+        ],
+        "member-ordering": [
+            true
+        ],
+        "interface-name": [
+            false
+        ],
+        "arrow-parens": false,
+        "object-literal-sort-keys": false,
+        "array-type": [
+            true,
+            "generic"
+        ],
+        "object-literal-shorthand": [
+            true,
+            "never"
+        ],
+        "indent": [
+            true,
+            "tabs",
+            4
+        ]
+    },
+    "rulesDirectory": []
+}

@@ -1,0 +1,21 @@
+{
+	"tslint.autoFixOnSave": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.tslint": true
+	},
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"codemetrics.basics.ComplexityLevelNormalDescription": "🤓",
+	"codemetrics.basics.ComplexityLevelLowDescription": "👍",
+	"codemetrics.basics.ComplexityLevelHighDescription": "😳",
+	"codemetrics.basics.ComplexityLevelExtremeDescription": "😱",
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+	"breadcrumbs.symbolSortOrder": "name",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+}
